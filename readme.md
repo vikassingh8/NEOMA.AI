@@ -86,7 +86,7 @@ Request Body:
 ```
 
 ### Create Task
-Endpoint: POST /tasks
+Endpoint: POST /api/tasks
 
 Description: Create a new task.
 
@@ -104,11 +104,11 @@ Request Body:
     
 
 ### Get User Tasks
-Endpoint: GET /tasks
+Endpoint: GET /api/tasks
 Description: Get tasks for the authenticated user.
 Authentication: Bearer Token (received after login)
 Update Task
-Endpoint: PUT /tasks/:taskId
+Endpoint: PUT /api/tasks/:taskId
 
 Description: Update an existing task.
 
@@ -123,7 +123,7 @@ Request Body:
 }
 
 ### Delete Task
-Endpoint: DELETE /tasks/:taskId
+Endpoint: DELETE /api/tasks/:taskId
 Description: Delete an existing task.
 Authentication: Bearer Token (received after login)
 Authentication
